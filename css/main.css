@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.page {
+  background-color: #eee;
+}
+.page .p1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 60px;
+}
+.page h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 60px;
+}
+.page .p2 {
+  font-size: 22px;
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
+  width: 650px;
+  margin: 20px auto;
+  word-spacing: 5px;
+}
+.content {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 767px) {
+  .content {
+    display: block;
+    padding-top: 50px;
+  }
+}
+.content .card {
+  height: 270px;
+  background-color: white;
+  padding: 20px;
+  border-top: 5px solid cyan;
+  border-radius: 10px;
+  box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+  position: relative;
+  align-items: center;
+}
+.content .card:hover {
+  transform: scale(1.1, 1.1);
+}
+@media (max-width: 767px) {
+  .content .card {
+    margin: 30px auto;
+  }
+}
+@media (max-width: 767px) {
+  .content .two {
+    margin: auto;
+  }
+}
+.content .width {
+  width: calc(100% / 3 - 60px);
+}
+@media (max-width: 767px) {
+  .content .width {
+    width: 500px;
+  }
+}
+.content .width .margin1 {
+  margin-top: -130px;
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .content .width .margin1 {
+    margin: auto;
+  }
+}
+.content .card h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .content .card h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 992px) {
+  .content .card h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .content .card h2 {
+    font-size: 40px;
+  }
+}
+.content .card p {
+  margin-top: 20px;
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 20px;
+  word-spacing: 0.8px;
+  letter-spacing: 0.9px;
+  line-height: 1.7;
+}
+@media (max-width: 1200px) {
+  .content .card p {
+    font-size: 19px;
+  }
+}
+@media (max-width: 992px) {
+  .content .card p {
+    font-size: 17px;
+  }
+}
+@media (max-width: 767px) {
+  .content .card p {
+    font-size: 22px;
+  }
+}
+
+.content .card img {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+}
+@media (max-width: 1200px) {
+  .content .card img {
+    width: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .content .card img {
+    width: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .content .card img {
+    width: 60px;
+  }
+}
+.content .super {
+  border-top-color: hsl(180, 62%, 55%);
+}
+.content .team {
+  border-top-color: hsl(0, 78%, 62%);
+}
+.content .karma {
+  border-top-color: hsl(34, 97%, 64%);
+}
+.content .calculator {
+  border-top-color: hsl(212, 86%, 64%);
+}
